@@ -1,6 +1,6 @@
 # RCM Loader
 Payload and Lakka launcher written in Kotlin. 
-
+Download it on the [Google Play Store](https://play.google.com/store/apps/details?id=com.thirdeclarity.rcmloader)
 **Application doesn't require Root on your device.**
 
 [Hekate](https://github.com/CTCaer/hekate) payload bundled as default.
