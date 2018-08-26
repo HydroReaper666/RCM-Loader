@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name" translatable="false">RCM Loader</string>
+
+    <!-- Strings for Navigation -->
+    <string name="navigation_payloads">Payloads</string>
+    <string name="navigation_lakka" translatable="false">Lakka</string>
+    <string name="navigation_instructions">Instructions</string>
+    <string name="navigation_logs">Logs</string>
+    <string name="navigation_about">About</string>
+    <string name="navigation_donate">Credits</string>
+    <string name="navigation_settings">Settings</string>
+
+    <!-- Strings for About -->
+    <string name="about_category_information">Information</string>
+    <string name="about_category_developer">Developer</string>
+    <string name="about_information_description">Application written in Kotlin and C++. It is used to inject payloads or start Lakka on the Switch. Visit /r/SwitchHacks or GBAtemp for tutorials and homebrew.</string>
+    <string name="about_developer_github" translatable="false">GitHub</string>
+    <string name="about_developer_twitter" translatable="false">Twitter</string>
+
+    <!-- Strings for Instructions -->
+    <string name="instructions_category_cable">Cable</string>
+    <string name="instructions_category_cable_description">You will need a cable to connect your device to the Switch. For proper operation, this should be a cable that is designed for data transmission, not just for charging.\n\nIt is advisable to use an A-to-C cable with a USB OTG adapter.\n\nIf you are having trouble with a C-to-C cable, consider getting an OTG adapter.\n\nYour device does not need root for this to work, however some devices do not support USB OTG. If you are not able to get it to work after trying different cables, try another Android device. Additionally, Android devices with xHCI controllers(USB 3.0) should work fine, but EHCI(USB 2.0) drivers may not work without a kernel patch. </string>
+    <string name="instructions_category_payload">Payload</string>
+    <string name="instructions_category_payload_description">In the \u0022Payloads\u0022 category, click the \u0022+\u0022 button to add payloads from your device\'s storage. Or simply transfer your payload to the RCM Loader folder in your device\'s storage.\n\nOr you can use the default payload, hekate - CTCaer mod v4.0\n\nHekate is a multipurpose payload that allows you to boot custom firmware with module support, NAND backup/restore options, toggle auto-RCM, launch other payloads on the Switch\'s sd card, Linux chainloading(You can boot Lakka this way), and more!</string>
+    <string name="instructions_category_coreboot" translatable="false">Coreboot (Lakka)</string>
+    <string name="instructions_category_coreboot_description">If you want to boot into Lakka it is now strongly recommended to use the included hekate payload. Lakka launching will probably be removed from this app in a future release. If you still wish to use this app\'s Lakka launcher continue reading.\n\nIn the \u0022Lakka\u0022 category, click the \u0022Add\u0022 or \u0022Update\u0022 button to select the \u0022coreboot\u0022 file from your device\'s storage. Or simply transfer your \u0022coreboot\u0022 file to the RCM Loader/Lakka folder in the device\'s memory. Tap the question mark (?) to download the needed coreboot file.</string>
+    <string name="instructions_category_rcm" translatable="false">RCM</string>
+    <string name="instructions_category_rcm_description">\u0022RCM\u0022 refers to Tegra Recovery Mode. Enter your Switch into RCM mode in any convenient way. Start by powering off the Switch completely and then bridging pins 10 and 7 (or 10 and 1) together in the right hand side rail. You can use a 3D printed jig or another convenient method such as a paperclip but be careful not to damage your pins. While powered off and the pins bridged, hold down the Volume-Up button and press the power button once while holding Volume-Up and then release. The display should remain blank as if it is still powered off but you are now in RCM mode. If it powers on normally, then you have not bridged your pins correctly and will need to start over.\n\nOnce in RCM mode, connect your device to the Switch and select your payload once prompted.\n\nTap the question mark (?) for a guide on getting into RCM.</string>
+    <string name="instructions_category_final">Final</string>
+    <string name="instructions_category_final_description">Connect the device to the Switch while it is in RCM and allow permission for the USB access if necessary. Wait until the program prompts you to select what you want to inject, Payload or Lakka.\n\nIf you will select Payload, than you will have to choose the one you need.\n\nIf you will choose Lakka, you should simply wait for it to load.\n\nIf you are an absolute beginner, the included payload cannot boot into CFW alone. You will need to have additional files on the SD card of your Switch. Beginners should use SDFilesSwitch by tumGER on GitHub.\n\nLakka also needs files on your Switch SD in order to work. Visit lakka-switch.github.io/documentation for an install guide.</string>
+
+    <!-- Strings for Logs -->
+    <string name="logs_actions_list">List of actions</string>
+
+    <!-- Strings for Donate -->
+    <string name="donate_title">Donate</string>
+    <string name="donate_description">You can support the development of the application in several ways.</string>
+    <string name="donate_bitcoin" translatable="false">Bitcoin</string>
+    <string name="donate_bitcoin_cash" translatable="false">Bitcoin Cash</string>
+    <string name="donate_ethereum" translatable="false">Ethereum</string>
+    <string name="donate_litecoin" translatable="false">Litecoin</string>
+    <string name="donate_address_copied">GitHub page address copied to clipboard!</string>
+
+    <!-- Strings for Lakka -->
+    <string name="lakka_category_cbfs" translatable="false">CBFS</string>
+    <string name="lakka_category_coreboot" translatable="false">Coreboot</string>
+    <string name="lakka_tools_ready">Ready</string>
+    <string name="lakka_tools_not_ready">Not ready</string>
+    <string name="lakka_last_update">Last update: %1$s</string>
+    <string name="lakka_button_add">Add</string>
+    <string name="lakka_button_update">Update</string>
+    <string name="lakka_coreboot_dialog_title">What is \u0022coreboot\u0022?</string>
+    <string name="lakka_coreboot_dialog_description">It is now recommended to load Lakka through the hekate payload and ignore this Lakka launcher. If you still want to use it, continue reading.\n\n\u0022Coreboot\u0022 is a special file needed to load Lakka on Nintendo Switch. Check the Instructions tab for a download link and then add it by selecting it from the downloaded folder on your device storage. It should be called coreboot.rom</string>
+
+    <!-- Strings for Settings -->
+    <string name="settings_category_auto_injector">Auto injector</string>
+    <string name="settings_auto_injector_status_title_disabled">Enable \u0022Auto injector\u0022</string>
+    <string name="settings_auto_injector_status_title_enabled">Disable \u0022Auto injector\u0022</string>
+    <string name="settings_auto_injector_payload_title">Payload</string>
+    <string name="settings_category_payloads">Payloads</string>
+    <string name="settings_payloads_reset_title">Clear</string>
+    <string name="settings_payloads_reset_summary">Remove all added payloads (except default hekate)</string>
+    <string name="settings_category_appearance">Appearance</string>
+    <string name="settings_appearance_night_mode_title">Night mode</string>
+    <string name="settings_appearance_accent_color_title">Accent color</string>
+    <string name="settings_appearance_accent_color_summary">Color used to tint UI elements</string>
+    <string name="settings_restart_title">Settings changed</string>
+    <string name="settings_restart_message">Settings have been changed. Please, restart for the change to take effect. \n\nRestart the app now?</string>
+    <string name="settings_restart_ok">Restart</string>
+    <string name="settings_restart_cancel">Cancel</string>
+
+    <!-- Strings for Permissions -->
+    <string name="permission_storage_dialog_title">Storage permission</string>
+    <string name="permission_storage_dialog_description">RCM Loader needs this permission to get payload files from your device\'s storage.</string>
+    <string name="permission_storage_button">Request</string>
+    <string name="permission_storage_error">Could not access device\'s storage. Try to get permission again.</string>
+
+    <!-- Strings for Dialogs -->
+    <string name="dialog_loader_title">Choose payload</string>
+    <string name="dialog_reset_payloads_title">Clear</string>
+    <string name="dialog_reset_payloads_summary">Are you sure you want to delete payloads?</string>
+    <string name="dialog_positive" translatable="false">OK</string>
+    <string name="dialog_negative">Cancel</string>
+    <string name="dialog_injector_chooser_title">Select injector</string>
+    <string name="dialog_injector_chooser_payload">Boot (Payload)</string>
+    <string name="dialog_injector_chooser_lakka">Boot (Lakka)</string>
+    <string name="dialog_file_chooser_payload_title">Choose payload</string>
+    <string name="dialog_file_chooser_coreboot_title">Choose \u0022coreboot\u0022</string>
+
+    <!-- Strings for Helper -->
+    <string name="helper_error_file_payload_wrong">Are you sure this is correct payload file?</string>
+    <string name="helper_error_file_coreboot_wrong">Are you sure this is correct \u0022coreboot\u0022 file?</string>
+</resources>

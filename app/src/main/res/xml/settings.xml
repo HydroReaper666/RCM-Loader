@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings_category_appearance" />
+
+    <ListPreference
+        android:defaultValue="enabled"
+        android:entries="@array/settings_appearance_night_mode_entries"
+        android:entryValues="@array/settings_appearance_night_mode_values"
+        android:key="appearance_night_mode"
+        android:summary="%s"
+        android:title="@string/settings_appearance_night_mode_title" />
+
+    <com.pavelrekun.rang.picker.ColorPickerPreference
+        android:key="appearance_accent_color"
+        android:summary="@string/settings_appearance_accent_color_summary"
+        android:title="@string/settings_appearance_accent_color_title" />
+
+    <PreferenceCategory android:title="@string/settings_category_auto_injector" />
+
+    <CheckBoxPreference
+        android:key="auto_injector_enable"
+        android:title="@string/settings_auto_injector_status_title_disabled" />
+
+    <ListPreference
+        android:enabled="false"
+        android:key="auto_injector_payload"
+        android:summary="%s"
+        android:title="@string/settings_auto_injector_payload_title" />
+
+    <PreferenceCategory android:title="@string/settings_category_payloads" />
+
+    <Preference
+        android:key="payloads_reset"
+        android:summary="@string/settings_payloads_reset_summary"
+        android:title="@string/settings_payloads_reset_title" />
+
+</PreferenceScreen>
