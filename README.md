@@ -29,7 +29,7 @@ This should not happen when using the "correct" payloads. But I am not responsib
 Yes, starting from 2.0 update RCM Loader can launch Lakka distribution. However it is now recommended to boot Lakka through the hekate payload instead.
 
 ## Credits
-* [fail0verflow] (https://github.com/fail0verflow) for ShofEL2 exploit
+* [fail0verflow](https://github.com/fail0verflow) for ShofEL2 exploit
 * [ktemkin](https://github.com/ktemkin) for discovering and implementing the Fusee Launcher
 * [DavidBuchanan314](https://github.com/DavidBuchanan314) for creating NXLoader.
 * [natinusala](https://github.com/natinusala) for creating Lakka_linux_launcher.
