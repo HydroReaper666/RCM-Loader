@@ -7,7 +7,8 @@
 - Improved support for Android Pie (9.0)
 - Added small FAQ for coreboot file
 - Fixed bug with null update date of coreboot filename
-- Fixed crash in settings
+- Edited some Instructions      
+- Fixed crash when launching for the first time
     </releaseNotes>
   </update>
 </AppUpdater>
