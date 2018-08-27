@@ -1,13 +1,14 @@
 <AppUpdater>
   <update>
-    <latestVersion>2.2.1</latestVersion>
-    <latestVersionCode>24</latestVersionCode>
-    <url>https://github.com/MenosGrante/Rekado/releases</url>
+    <latestVersion>3.0.2</latestVersion>
+    <latestVersionCode>32</latestVersionCode>
+    <url>https://play.google.com/store/apps/details?id=com.thirdeclarity.rcmloader</url>
     <releaseNotes>
-- Improved support for Android Pie (9.0)
-- Added small FAQ for coreboot file
-- Fixed bug with null update date of coreboot filename
-- Fixed crash in settings
+      - Improved support for Android Pie (9.0)
+      - Added small FAQ for coreboot file
+      - Fixed bug with null update date of coreboot filename
+      - Edited some Instructions
+      - Fixed crash when launching for the first time
     </releaseNotes>
   </update>
 </AppUpdater>
