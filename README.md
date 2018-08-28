@@ -28,7 +28,7 @@ This should not happen when using the "correct" payloads. Make sure you download
 
 **Can RCM Loader launch Linux?**
 
-Yes, starting from 2.0 update RCM Loader can launch Lakka distribution. However it is now recommended to boot Lakka through the hekate payload instead.
+Yes, RCM Loader can launch Lakka the latest distribution. However it is now recommended to boot Lakka through the hekate payload instead.
 
 ## Credits
 * [fail0verflow](https://github.com/fail0verflow) for ShofEL2 exploit
