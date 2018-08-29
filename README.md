@@ -5,7 +5,7 @@ Download it on the [Google Play Store](https://play.google.com/store/apps/detail
 **Application doesn't require Root on your device.**
 
 [Hekate](https://github.com/CTCaer/hekate) payload bundled as default.
-[Lakka](https://github.com/lakka-switch/boot-scripts/tree/master/payloads) payload and coreboot files bundled in application.
+[Lakka](https://github.com/lakka-switch/boot-scripts/tree/master/payloads) payload is bundled with the application but you will have to get your coreboot.rom file separately and then add it. [Click to download coreboot for Lakka](https://github.com/lakka-switch/boot-scripts/raw/master/payloads/coreboot.rom) 
 
 ## Usage
 * Launch application
@@ -20,15 +20,15 @@ Download it on the [Google Play Store](https://play.google.com/store/apps/detail
 ## FAQ
 **Does application require Root?**
 
-Application doesn't require Root on your device.
+Application doesn't require Root on your device. You will need to accept the storage permission for the app to locate payloads and work correctly . 
 
 **Can it brick my device/console?**
 
-This should not happen when using the "correct" payloads. Make sure you download trusted payloads as I cannot be held responsible for bricks due to user error.
+This should not happen when using the "correct" payloads. Make sure you download trusted payloads as I cannot be held responsible for bricks due to user error. There is a rare chance of freezing while in RCM mode. If this happens just hold down the Switch's power button for 15 seconds and let go to power off, and then you may repeat the steps to enter RCM mode again. 
 
 **Can RCM Loader launch Linux?**
 
-Yes, starting from 2.0 update RCM Loader can launch Lakka distribution. However it is now recommended to boot Lakka through the hekate payload instead.
+Yes, RCM Loader can launch Lakka the latest distribution. However it is now recommended to boot Lakka through the hekate payload instead.
 
 ## Credits
 * [fail0verflow](https://github.com/fail0verflow) for ShofEL2 exploit

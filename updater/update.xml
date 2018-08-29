@@ -1,7 +1,7 @@
 <AppUpdater>
   <update>
-    <latestVersion>3.0.2</latestVersion>
-    <latestVersionCode>32</latestVersionCode>
+    <latestVersion>3.0.1</latestVersion>
+    <latestVersionCode>31</latestVersionCode>
     <url>https://play.google.com/store/apps/details?id=com.thirdeclarity.rcmloader</url>
     <releaseNotes>
       - Improved support for Android Pie (9.0)
