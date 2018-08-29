@@ -1,0 +1,79 @@
+<resources>
+    <!-- Strings for Navigation -->
+    <string name="navigation_payloads">Payloads</string>
+    <string name="navigation_instructions">Instrucciones</string>
+    <string name="navigation_logs">Logs</string>
+    <string name="navigation_about">Información</string>
+    <string name="navigation_donate">GitHub</string>
+    <string name="navigation_settings">Ajustes</string>
+
+    <!-- Strings for About -->
+    <string name="about_category_information">Información</string>
+    <string name="about_category_developer">Desarrollador</string>
+    <string name="about_information_description">Aplicación escrita en Kotlin y C++. Se usa para inyectar payloads e iniciar Lakka en el Switch</string>
+
+    <!-- Strings for Instructions -->
+    <string name="instructions_category_cable">Cable</string>
+    <string name="instructions_category_cable_description">Necesita un cable USB y un adaptador USB-OTG para conectar su dispositivo al Switch. Para que funcione correctamente, el cable debe estar diseñado para transferencia de datos y no solo para cargar. USB-C-to-C podría funcionar, pero si tiene problemas, intente con un adaptador USB-OTG</string>
+    <string name="instructions_category_payload">Payload</string>
+    <string name="instructions_category_payload_description">En la categoría \u0022Payloads\u0022, haga clic en el botón \u0022+\u0022 para agregar payloads del almacenamiento de su dispositivo. También puede usar la carga útil predeterminada "hekate". hekate tiene muchos usos, como carga de CFW, copia de seguridad / restauración, carga de Linux / Lakka y más RCM automático y más</string>
+    <string name="instructions_category_coreboot_description">Si desea iniciar en Lakka ahora se recomienda encarecidamente utilizar la carga útil de hekate incluida. El lanzamiento de Lakka probablemente se eliminará de esta aplicación en una versión futura. Si todavía desea utilizar el iniciador de Lakka de esta aplicación, continúe leyendo. \n\nEn la categoría \u0022Lakka\u0022, haga clic en el botón \u0022Add\u0022 o \u0022Update\u0022 para seleccionar el archivo \u0022coreboot\u0022 de su dispositivo\'s almacenamiento. O simplemente transfiera su archivo \u0022coreboot.rom\u0022 a la carpeta RCM Loader / Lakka en la memoria del dispositivo. Toque el signo de interrogación (?) Para descargar el archivo coreboot necesario. Un enlace de descarga también está disponible en GitHub README en la descripción de Play Store.</string>
+    <string name="instructions_category_rcm_description">Ingrese su Switch al modo RCM de cualquier manera conveniente. Comience apagando completamente el Switch y luego uniendo los pines 10 y 7 (o 10 y 1) al riel lateral derecho. Puede usar una plantilla impresa en 3D u otro método conveniente, como un clip, pero tenga cuidado de no dañar sus alfileres. Mientras el Switch está apagado y las patillas se tocan correctamente, mantenga presionado el botón para subir el volumen y presione el botón de encendido una vez mientras mantiene el volumen hacia arriba y luego suéltelo. La pantalla debe permanecer en blanco como si todavía estuviera apagada, pero ahora está en modo RCM. Si se enciende normalmente, entonces no ha puenteado correctamente sus pines y tendrá que comenzar de nuevo. \n\nUna vez en el modo RCM, conecte su dispositivo al Switch y seleccione su carga útil una vez que se solicite. \n\nToque el signo de interrogación (?) Para obtener una guía sobre cómo acceder a RCM.</string>
+    <string name="instructions_category_final">Final</string>
+    <string name="instructions_category_final_description">Conecte el dispositivo al Switch mientras está en RCM y permita el permiso para el acceso USB si es necesario. Espere hasta que el programa le pida que seleccione lo que desea inyectar, Payload o Lakka. \n\nSi selecciona Payload, tendrá que elegir el que necesita. \n\nSi elige Lakka, simplemente debería hacerlo espera a que se cargue. \n\nSi eres un principiante absoluto, el hekate incluido no puede cargar CFW por sí mismo. Necesitará tener archivos adicionales en la tarjeta SD de su Switch. Los principiantes deben usar SDFilesSwitch por tumGER en GitHub. \n\nLakka también necesita archivos en su Switch SD para poder trabajar. Visite lakka-switch.github.io/documentation para obtener una guía de instalación.</string>
+
+    <!-- Strings for Logs -->
+    <string name="logs_actions_list">Lista de operaciones</string>
+
+    <!-- Strings for Donate -->
+    <string name="donate_title">GitHub</string>
+    <string name="donate_description">Créditos de desarrolladores que hicieron posible esta aplicación:</string>
+    <string name="donate_address_copied">Enlace de GitHub copiado al portapapeles</string>
+
+    <!-- Strings for Lakka -->
+    <string name="lakka_tools_ready">Listo</string>
+    <string name="lakka_tools_not_ready">No está listo</string>
+    <string name="lakka_last_update">Última actualización: %1$s</string>
+    <string name="lakka_button_add">Añadir</string>
+    <string name="lakka_button_update">Actualizar</string>
+    <string name="lakka_coreboot_dialog_title">¿Qué es \u0022coreboot\u0022?</string>
+    <string name="lakka_coreboot_dialog_description">\u0022Coreboot\u0022 es un archivo especial necesario para cargar Lakka en el Switch. Consulte la pestaña Instrucciones para obtener un enlace de descarga y luego agréguelo al seleccionarlo de la carpeta descargada en el almacenamiento de su dispositivo. Debería llamarse coreboot.rom</string>
+
+    <!-- Strings for Settings -->
+    <string name="settings_category_auto_injector">Inyección automática</string>
+    <string name="settings_auto_injector_status_title_disabled">Habilitar \u0022Auto injector\u0022</string>
+    <string name="settings_auto_injector_status_title_enabled">Inhabilitar \u0022Auto injector\u0022</string>
+    <string name="settings_auto_injector_payload_title">Payload</string>
+    <string name="settings_category_payloads">Payloads</string>
+    <string name="settings_payloads_reset_title">Retirar</string>
+    <string name="settings_payloads_reset_summary">Eliminar todo el payloads agregado (excepto Hekate)</string>
+    <string name="settings_category_appearance">Apariencia</string>
+    <string name="settings_appearance_night_mode_title">Modo nocturno</string>
+    <string name="settings_appearance_accent_color_title">Acentuar el color</string>
+    <string name="settings_appearance_accent_color_summary">Color utilizado para matizar los elementos de la interfaz de usuario</string>
+    <string name="settings_restart_title">La configuración ha cambiado</string>
+    <string name="settings_restart_message">La configuración ha sido cambiada. Por favor, reinicie para que el cambio surta efecto.\n\n¿Reiniciar la aplicación ahora?</string>
+    <string name="settings_restart_ok">Reiniciar</string>
+    <string name="settings_restart_cancel">Cancelar</string>
+
+    <!-- Strings for Permissions -->
+    <string name="permission_storage_dialog_title">Permiso de almacenamiento</string>
+    <string name="permission_storage_dialog_description">RCM Loader necesita este permiso para obtener archivos Payload del almacenamiento de su dispositivo</string>
+    <string name="permission_storage_button">Solicitud</string>
+    <string name="permission_storage_error">No se pudo acceder al almacenamiento del dispositivo. Intenta obtener permiso de nuevo.</string>
+
+    <!-- Strings for Dialogs -->
+    <string name="dialog_loader_title">Elija Payload</string>
+    <string name="dialog_reset_payloads_title">Retirar</string>
+    <string name="dialog_reset_payloads_summary">¿Seguro que quieres eliminar payloads?</string>
+    <string name="dialog_negative">Cancelar</string>
+    <string name="dialog_injector_chooser_title">Seleccionar inyector</string>
+    <string name="dialog_injector_chooser_payload">Boot (Payload)</string>
+    <string name="dialog_injector_chooser_lakka">Boot (Lakka)</string>
+    <string name="dialog_file_chooser_payload_title">Elija payload</string>
+    <string name="dialog_file_chooser_coreboot_title">Elegir \u0022coreboot\u0022</string>
+
+    <!-- Strings for Helper -->
+    <string name="helper_error_file_payload_wrong">¿Estás seguro de que este es el archivo Payload correcto?</string>
+    <string name="helper_error_file_coreboot_wrong">¿Estás seguro de que este es el archivo \u0022coreboot\u0022 correcto?</string>
+</resources>
