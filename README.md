@@ -5,7 +5,7 @@ Download it on the [Google Play Store](https://play.google.com/store/apps/detail
 **Application doesn't require Root on your device.**
 
 [Hekate](https://github.com/CTCaer/hekate) payload bundled as default.
-[Lakka](https://github.com/lakka-switch/boot-scripts/tree/master/payloads) payload is bundled with the application but you will have to get your coreboot.rom file separately and then add it. [Click to download coreboot for Lakka](https://github.com/lakka-switch/boot-scripts/raw/master/payloads/coreboot.rom) 
+[Lakka](https://github.com/lakka-switch/boot-scripts/tree/master/payloads) payload is bundled with the application but you will have to get your coreboot.rom file separately and then add it. [Click to download coreboot for Lakka](https://github.com/ThirdEyeClarity/RCM-Loader/raw/e0cfaab1f090feb926ab52dacaf5793253be7939/coreboot.rom) 
 
 ## Usage
 * Launch application
