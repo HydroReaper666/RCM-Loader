@@ -3,14 +3,14 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion currentSDKVersion
+    compileSdkVersion 27
 
     defaultConfig {
         applicationId "com.thirdeclarity.rcmloader"
         minSdkVersion 21
-        targetSdkVersion 21
-        versionCode 32
-        versionName "3.0.2"
+        targetSdkVersion 27
+        versionCode 34
+        versionName "3.0.4"
 
         externalNativeBuild {
             cmake {
