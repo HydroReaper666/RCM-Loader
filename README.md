@@ -4,7 +4,8 @@ Payload and Lakka launcher written in Kotlin.
 Download it on the [Google Play Store](https://play.google.com/store/apps/details?id=com.thirdeclarity.rcmloader)
 **Application doesn't require Root on your device.**
 
-[Hekate](https://github.com/CTCaer/hekate) payload bundled as default.
+[Hekate](https://github.com/CTCaer/hekate) payload bundled as default. Make sure your SD card on the Switch is properly setup first. I recommend this [pre-packaged SD Card Files by tumGER](https://github.com/tumGER/SDFilesSwitch/releases/) that you can simply extract to your SD.
+
 [Lakka](https://github.com/lakka-switch/boot-scripts/tree/master/payloads) payload is bundled with the application but you will have to get your coreboot.rom file separately and then add it. [Click to download coreboot for Lakka](https://github.com/ThirdEyeClarity/RCM-Loader/raw/e0cfaab1f090feb926ab52dacaf5793253be7939/coreboot.rom) 
 
 ## Usage
