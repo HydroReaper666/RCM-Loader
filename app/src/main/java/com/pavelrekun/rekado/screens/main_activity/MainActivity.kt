@@ -11,9 +11,7 @@ import com.pavelrekun.rekado.screens.about_activity.AboutActivity
 import com.pavelrekun.rekado.screens.settings_activity.SettingsActivity
 import com.pavelrekun.rekado.services.dialogs.DonateDialog
 import com.pavelrekun.rekado.services.utils.DesignUtils
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.AdView
+
 
 class MainActivity : BaseActivity() {
     lateinit var mAdView : AdView
