@@ -1,12 +1,14 @@
 # RCM Loader
-Payload and Lakka launcher written in Kotlin. 
+Payload and Lakka launcher for the Switch using your Android!
 
 Download it on the [Google Play Store](https://play.google.com/store/apps/details?id=com.thirdeclarity.rcmloader)
 **Application doesn't require Root on your device.**
 
-[Hekate](https://github.com/CTCaer/hekate) payload bundled as default. Make sure your SD card on the Switch is properly setup first. I recommend this [pre-packaged SD Card Files by tumGER](https://github.com/tumGER/SDFilesSwitch/releases/) that you can simply extract to your SD.
+**BEGINNERS SHOULD START WITH [THIS GUIDE](https://guide.sdsetup.com/#/beforestarting)**
 
-[Lakka](https://github.com/lakka-switch/boot-scripts/tree/master/payloads) payload is bundled with the application but you will have to get your coreboot.rom file separately and then add it. [Click to download coreboot for Lakka](https://github.com/ThirdEyeClarity/RCM-Loader/raw/Lakka-Loader/coreboot.rom) 
+[Hekate](https://github.com/CTCaer/hekate) payload bundled as default. Make sure your SD card on the Switch is properly setup first. I recommend this [pre-packaged SD Card Files by tumGER](https://github.com/tumGER/SDFilesSwitch/releases/) that you can simply extract to your SD. **This link is now known as Kosmos and is still highly recommended.**
+
+[Lakka](https://lakka-switch.github.io/documentation/) payload is bundled with the application but you will have to get your coreboot.rom file separately and then add it. [Click to download coreboot for Lakka.](https://github.com/ThirdEyeClarity/RCM-Loader/raw/Lakka-Loader/coreboot.rom) This version of coreboot is extracted from "Lakka-Switch.arm-2.2-devel-20181004171647-r28346-g2df642137.tar.gz" which is the stable release from 10/04/2018.
 
 ## Usage
 * Launch application
@@ -25,17 +27,18 @@ Application doesn't require Root on your device. You will need to accept the sto
 
 **Can it brick my device/console?**
 
-This should not happen when using the "correct" payloads. Make sure you download trusted payloads as I cannot be held responsible for bricks due to user error. There is a rare chance of freezing while in RCM mode. If this happens just hold down the Switch's power button for 15 seconds and let go to power off, and then you may repeat the steps to enter RCM mode again. 
+This should not happen when using the "correct" payloads. Make sure you download trusted payloads as I cannot be held responsible for bricks due to user error. There is a rare chance of freezing while in RCM mode. If this happens just hold down the Switch's power button for 15 seconds and let go to power off, and then you may repeat the steps to enter RCM mode again. This application is typically kept up to date with the latest [Hekate payload](https://github.com/CTCaer/hekate/releases), however it should be your responsibility to manually check for Hekate updates in case RCM Loader is behind.
 
 **Can RCM Loader launch Linux?**
 
-Yes, RCM Loader can launch Lakka the latest distribution. However it is now recommended to boot Lakka through the hekate payload instead.
+Yes, RCM Loader can launch the latest Lakka distribution as long as your SD card is properly formatted as FAT32, the [latest stable Lakka release](https://lakka-switch.github.io/documentation/archives.html) is extracted to your SD ("lakka" & "bootloader" folder) and you have the correct coreboot file in the app. **However it is now recommended to boot Lakka through the hekate payload instead.**
 
 ## Credits
+* [MenosGrante](https://github.com/MenosGrante) for originally writing Rekado
+* [SciresM](https://github.com/SciresM) for development of the Atmosphère CFW for the Switch
+* [CTCaer](https://github.com/CTCaer) for regularly developing the Hekate bootloader payload
 * [fail0verflow](https://github.com/fail0verflow) for ShofEL2 exploit
-* [ktemkin](https://github.com/ktemkin) for discovering and implementing the Fusee Launcher
 * [DavidBuchanan314](https://github.com/DavidBuchanan314) for creating NXLoader
 * [natinusala](https://github.com/natinusala) for creating Lakka_linux_launcher
-* [ealfonso93](https://github.com/ealfonso93) for contributing in this project
-* [CTCaer](https://github.com/CTCaer) for picking up and maintaining the hekate payload
-* [MenosGrante](https://github.com/MenosGrante) for originally writing Rekado
+
+
