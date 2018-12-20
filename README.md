@@ -6,7 +6,7 @@ Download it on the [Google Play Store](https://play.google.com/store/apps/detail
 
 [Hekate](https://github.com/CTCaer/hekate) payload bundled as default. Make sure your SD card on the Switch is properly setup first. I recommend this [pre-packaged SD Card Files by tumGER](https://github.com/tumGER/SDFilesSwitch/releases/) that you can simply extract to your SD.
 
-[Lakka](https://github.com/lakka-switch/boot-scripts/tree/master/payloads) payload is bundled with the application but you will have to get your coreboot.rom file separately and then add it. [Click to download coreboot for Lakka](https://github.com/ThirdEyeClarity/RCM-Loader/raw/e0cfaab1f090feb926ab52dacaf5793253be7939/coreboot.rom) 
+[Lakka](https://github.com/lakka-switch/boot-scripts/tree/master/payloads) payload is bundled with the application but you will have to get your coreboot.rom file separately and then add it. [Click to download coreboot for Lakka](https://github.com/ThirdEyeClarity/RCM-Loader/raw/Lakka-Loader/coreboot.rom) 
 
 ## Usage
 * Launch application
@@ -21,7 +21,7 @@ Download it on the [Google Play Store](https://play.google.com/store/apps/detail
 ## FAQ
 **Does application require Root?**
 
-Application doesn't require Root on your device. You will need to accept the storage permission for the app to locate payloads and work correctly . 
+Application doesn't require Root on your device. You will need to accept the storage permission for the app to locate payloads and work correctly. 
 
 **Can it brick my device/console?**
 
@@ -34,8 +34,8 @@ Yes, RCM Loader can launch Lakka the latest distribution. However it is now reco
 ## Credits
 * [fail0verflow](https://github.com/fail0verflow) for ShofEL2 exploit
 * [ktemkin](https://github.com/ktemkin) for discovering and implementing the Fusee Launcher
-* [DavidBuchanan314](https://github.com/DavidBuchanan314) for creating NXLoader.
-* [natinusala](https://github.com/natinusala) for creating Lakka_linux_launcher.
-* [ealfonso93](https://github.com/ealfonso93) for contributing in this project.
+* [DavidBuchanan314](https://github.com/DavidBuchanan314) for creating NXLoader
+* [natinusala](https://github.com/natinusala) for creating Lakka_linux_launcher
+* [ealfonso93](https://github.com/ealfonso93) for contributing in this project
 * [CTCaer](https://github.com/CTCaer) for picking up and maintaining the hekate payload
 * [MenosGrante](https://github.com/MenosGrante) for originally writing Rekado
