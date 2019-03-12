@@ -1,10 +1,10 @@
 <AppUpdater>
   <update>
-    <latestVersion>3.0.8</latestVersion>
-    <latestVersionCode>38</latestVersionCode>
+    <latestVersion>3.0.9</latestVersion>
+    <latestVersionCode>39</latestVersionCode>
     <url>https://play.google.com/store/apps/details?id=com.thirdeclarity.rcmloader</url>
     <releaseNotes>
-      - Updated payload to Hekate mod v4.8 by CTCaer
+      - Updated payload to Hekate mod v4.9.1 by CTCaer
       
     </releaseNotes>
   </update>
