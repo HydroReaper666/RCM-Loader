@@ -1,11 +1,12 @@
 <AppUpdater>
   <update>
-    <latestVersion>3.0.16</latestVersion>
-    <latestVersionCode>46</latestVersionCode>
+    <latestVersion>3.0.17</latestVersion>
+    <latestVersionCode>47</latestVersionCode>
     <url>https://play.google.com/store/apps/details?id=com.thirdeclarity.rcmloader</url>
     <releaseNotes>
-      - Updated payload to Hekate mod v5.3.0 by CTCaer
-      - Rememeber to wash your hands!
+      - Updated payload to Hekate mod v5.3.2 by CTCaer
+      - Remember to update files on your Switch's SD
+      - Remember to wash your hands!
       
     </releaseNotes>
   </update>
